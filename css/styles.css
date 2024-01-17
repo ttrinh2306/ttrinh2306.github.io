@@ -489,7 +489,7 @@ progress {
   display: none !important;
 }
 
-.lead, .lead ui, .lead li {
+.lead {
   font-size: 1.25rem;
   font-weight: 300;
 }
