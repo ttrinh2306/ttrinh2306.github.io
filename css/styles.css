@@ -489,7 +489,7 @@ progress {
   display: none !important;
 }
 
-.lead, .lead ul, .lead li{
+.lead {
   font-size: 1.25rem;
   font-weight: 300;
 }
@@ -11321,7 +11321,7 @@ h1, .h1 {
   line-height: 1;
 }
 
-p.lead {
+p.lead, p.lead ul, p.lead li {
   font-size: 1.15rem;
   font-weight: 400;
 }
