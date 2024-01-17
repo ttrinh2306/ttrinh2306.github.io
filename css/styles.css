@@ -494,7 +494,7 @@ progress {
   font-weight: 300;
 }
 
-.lead ui, .lead li{
+.lead ul, .lead li{
   font-size: 1.25rem;
   font-weight: 300;
 }
