@@ -11433,3 +11433,30 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+ul {
+  /* Removing default list-style */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  /* Adding custom bullet points */
+  position: relative;
+  padding-left: 20px; /* Adjust as needed */
+  line-height: 1.5; /* Same as --bs-body-line-height */
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  color: var(--bs-body-color);
+}
+
+ul li:before {
+  /* Creating custom bullets */
+  content: '•'; /* Unicode for bullet symbol */
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--bs-body-color); /* Bullet color */
+  font-size: var(--bs-body-font-size); /* Bullet size */
+}
