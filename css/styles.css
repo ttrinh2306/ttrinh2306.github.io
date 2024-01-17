@@ -494,11 +494,6 @@ progress {
   font-weight: 300;
 }
 
-/* .lead ul, .lead li{
-  font-size: 1.25rem;
-  font-weight: 300;
-} */
-
 
 .display-1 {
   font-size: calc(1.625rem + 4.5vw);
